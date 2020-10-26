@@ -31,7 +31,7 @@ body{
 	}
 }
 .navbar.scrolled{
-	background: rgb(222,192,222);
+	background: rgb(222,192,222,0.8);
 	transition: background 500ms;
 }
 .glurg h2{
@@ -47,6 +47,74 @@ body{
 .content{
 	margin-bottom: 100px;
 }
+footer{
+	background-color: #98dff4;
+	padding-bottom: 8rem;
+	padding-top:1.5rem;
+}
+ #links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+} 
+#links li a{
+	color:white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#links li a:hover{
+	text-decoration: none;
+}
+.footer-section{
+	margin-top: 13rem;
+	margin-left: 4rem;
+} 
+.footer-section div p{
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.social-media ul{
+	display:flex;
+	flex-direction: row;
+	list-style:none;
+	padding-left: 1.5rem;
+}
+.social-media ul li a i{
+	display:flex;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+.social-media .media-list li a{
+	color: white;
+	text-decoration: none;
+}
+.social-media .media-list li a:hover{
+	text-decoration: none;
+}
+.footer-section #footer-list{
+	list-style: none;
+}
+div #footer-list li a{
+	color:white;
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+div #footer-list li a:hover{
+	text-decoration: none;
+}
+/* #footer{
+	background-color: #98dff4;
+}
+.footer-row ul{
+	color: white;
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+} */
 /* #aboutus{
 	/* background: rgb(222,192,222); 
 }*/
