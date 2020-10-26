@@ -70,6 +70,9 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+#firstTop{
+    padding-top: 5px;
+}
 #candy{
     color:  #ea1c2c;
     font-size: 2.5rem;
@@ -157,6 +160,9 @@ body{
     #firstTop.scrolled{
         background-color: rgb(222,192,222);
         transition: background-color 0.25s; 
+    }
+    #firstTop{
+        text-align: center;
     }
 }
 @media screen and (max-width: 900px){
