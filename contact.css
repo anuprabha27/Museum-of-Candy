@@ -19,3 +19,11 @@ h2{
 #contactUS p{
     font-size: 25px;
 }
+@media (max-width:900px){
+}
+@media screen and (max-width: 900px){
+    html,body{
+        background-color:rgb(222,192,222);
+        background-image: none;
+    }
+}
